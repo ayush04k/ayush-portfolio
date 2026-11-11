@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayush Kumar — Forward Deployed & AI Solutions Engineer</title>
+  <meta name="description" content="Ayush Kumar — engineer who works with customers directly: understands the problem, demos a working solution, and deploys it to production. Forward Deployed Engineer, AI Solutions Engineer, AI Product." />
+  <meta name="theme-color" content="#F3F7FB" />
+  <meta property="og:title" content="Ayush Kumar — Forward Deployed & AI Solutions Engineer" />
+  <meta property="og:description" content="I listen, demo, and deploy. Full-stack + AI products shipped for clients across ed-tech, sports-tech and consulting." />
+  <meta property="og:image" content="assets/ayush.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232B73BE'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial Black,Arial' font-weight='900' font-size='28' fill='%23FFFFFF'%3EAK%3C/text%3E%3C/svg%3E" />
+
+  <!-- Apply saved / system theme before paint (no flash) -->
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('ak-theme'); } catch (e) {}
+      if (t !== 'dark' && t !== 'light') t = 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/ayush.webp" type="image/webp" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="glass-bg" aria-hidden="true">
+    <i class="blob b1"></i><i class="blob b2"></i><i class="blob b3"></i>
+    <div class="stripes"></div>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="logo" aria-label="Ayush Kumar — home">
+      <span class="logo-mark">AK</span><span class="logo-dot"></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light / dark theme">
+        <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4L6 18M18 6l1.4-1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 1 1 9.8 3.5a7 7 0 0 0 10.7 10.7z"/></svg>
+      </button>
+      <a class="btn btn-sm btn-ghost hide-sm" href="assets/Ayush_Kumar_Resume.pdf" download>Résumé ↓</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="assets/Ayush_Kumar_Resume.pdf" download class="mm-cta">Download résumé ↓</a>
+  </div>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow load" style="--d:0">
+            <span class="pulse"></span> Open to FDE &amp; AI roles · New Delhi, IN
+          </p>
+
+          <h1 class="hero-title" aria-label="Ayush Kumar">
+            <span class="line"><span class="load-up" style="--d:1">Ayush</span></span>
+            <span class="line"><span class="load-up outline" style="--d:2">Kumar</span><span class="load-up period" style="--d:3">.</span></span>
+          </h1>
+
+          <p class="role load" style="--d:4">
+            <span class="role-prefix">&gt;_</span>
+            <span class="role-text" id="roleText">Forward Deployed Engineer</span><span class="caret"></span>
+          </p>
+
+          <p class="hero-sub load" style="--d:5">
+            I sit with customers, understand the real problem, <em>demo</em> a working solution, and <em>deploy</em> it to production.
+            Full-stack + AI products shipped across ed-tech, sports-tech and consulting.
+          </p>
+
+          <div class="hero-ctas load" style="--d:6">
+            <a href="#work" class="btn btn-primary magnetic">See my work <span class="arr">→</span></a>
+            <a href="assets/Ayush_Kumar_Resume.pdf" download class="btn btn-ghost magnetic">Download résumé</a>
+          </div>
+
+          <div class="socials load" style="--d:7">
+            <a href="https://www.linkedin.com/in/ayush04kumar" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5zM3 9.75h4V21H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.84-2.05 3.78-2.05 4.04 0 4.79 2.66 4.79 6.12V21h-4v-4.9c0-1.17-.02-2.68-1.63-2.68-1.64 0-1.89 1.28-1.89 2.6V21h-4z"/></svg>
+            </a>
+            <a href="https://github.com/ayush04k" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+            </a>
+            <a href="mailto:ayush51501kumar@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 6.5l8.5 6.5 8.5-6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual load-scale" style="--d:3">
+          <div class="portrait tilt" id="portrait">
+            <div class="portrait-ring"></div>
+            <picture>
+              <source srcset="assets/ayush.webp" type="image/webp" />
+              <img src="assets/ayush.jpg" alt="Portrait of Ayush Kumar" width="720" height="720" fetchpriority="high" />
+            </picture>
+            <div class="chip chip-a"><b data-count="1000" data-suffix="+">1,000+</b><span>live users served</span></div>
+            <div class="chip chip-b"><b>5</b><span>languages, 1 pipeline</span></div>
+            <div class="chip chip-c"><span class="dot-live"></span> shipping to prod</div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to about">
+        <span>scroll</span><i></i>
+      </a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Forward Deployed Engineering</span><b>✦</b>
+        <span>AI Solutions</span><b>✦</b>
+        <span>Customer Success AI</span><b>✦</b>
+        <span>AI Product</span><b>✦</b>
+        <span>RAG &amp; Agents</span><b>✦</b>
+        <span>Demo → Deploy</span><b>✦</b>
+        <span>Forward Deployed Engineering</span><b>✦</b>
+        <span>AI Solutions</span><b>✦</b>
+        <span>Customer Success AI</span><b>✦</b>
+        <span>AI Product</span><b>✦</b>
+        <span>RAG &amp; Agents</span><b>✦</b>
+        <span>Demo → Deploy</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="sec-num">01</span>
+          <h2>About</h2>
+          <span class="sec-line"></span>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-lead reveal">
+            <p class="big">
+              Engineer by craft, <span class="hl">customer-obsessed</span> by habit.
+              I'm happiest at the point where a client's messy, real-world problem turns into
+              software they actually use.
+            </p>
+            <p>
+              Over the last two years I've led the full app at Rally Sports (1,000+ live users), built an ed-tech MVP
+              end-to-end, and designed AI pipelines that generated and translated 100+ assessments across 5 languages.
+              I spend as much time in requirement calls and demos as I do in the codebase, and that's exactly how I like it.
+            </p>
+            <p>
+              Currently finishing my B.Tech in IT at GGSIPU (MAIT), New Delhi, and looking for roles as a
+              <strong>Forward Deployed Engineer</strong>, <strong>AI Solutions Engineer</strong>,
+              <strong>Customer Success AI Engineer</strong> or <strong>AI Product Manager</strong>.
+            </p>
+          </div>
+
+          <ol class="process">
+            <li class="reveal" style="--d:0">
+              <span class="p-num">01</span>
+              <div>
+                <h3>Listen</h3>
+                <p>Get in the room with the customer. Scope the real problem, flag edge cases and limits up front.</p>
+              </div>
+            </li>
+            <li class="reveal" style="--d:1">
+              <span class="p-num">02</span>
+              <div>
+                <h3>Demo</h3>
+                <p>Ship a working prototype fast, so feedback is about something real and not a slide.</p>
+              </div>
+            </li>
+            <li class="reveal" style="--d:2">
+              <span class="p-num">03</span>
+              <div>
+                <h3>Deploy</h3>
+                <p>Take it to production, own the releases, and keep iterating with the people who use it.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="stats">
+          <div class="stat reveal" style="--d:0"><b data-count="1000" data-suffix="+">0</b><span>live app users</span></div>
+          <div class="stat reveal" style="--d:1"><b data-count="100" data-suffix="+">0</b><span>AI assessments generated &amp; translated</span></div>
+          <div class="stat reveal" style="--d:2"><b data-count="80" data-suffix="%">0</b><span>of the pipeline automated</span></div>
+          <div class="stat reveal" style="--d:3"><b data-count="40" data-suffix="%">0</b><span>fewer QA review cycles</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="sec-num">02</span>
+          <h2>Experience</h2>
+          <span class="sec-line"></span>
+        </div>
+
+        <div class="timeline" id="timeline">
+          <div class="tl-rail"><span class="tl-fill" id="tlFill"></span></div>
+
+          <article class="job reveal">
+            <span class="tl-dot"></span>
+            <header>
+              <div>
+                <h3>Technical Lead</h3>
+                <p class="org">Rally Sports <span>· international client, via Xntuate</span></p>
+              </div>
+              <span class="when">Feb 2026 — Present · Remote</span>
+            </header>
+            <ul>
+              <li>Joined as a frontend developer; now lead development of the full app: features, deployment, maintenance and release management. <b>Serves 1,000+ live users.</b></li>
+              <li>Work directly with the founder on new feature requests: flag edge cases and limitations up front, then plan the most efficient way to build each one.</li>
+            </ul>
+            <div class="tags"><span>React Native</span><span>Expo</span><span>Node</span><span>AWS</span><span>Release mgmt</span></div>
+          </article>
+
+          <article class="job reveal">
+            <span class="tl-dot"></span>
+            <header>
+              <div>
+                <h3>Forward Deployed Engineer</h3>
+                <p class="org">Xntuate Consultancy Services</p>
+              </div>
+              <span class="when">Aug 2026 — Oct 2026 · Remote</span>
+            </header>
+            <ul>
+              <li>Built an internal AI course-creator that generates full courses for any occupation as PPTs in the client's own template.</li>
+              <li>Built a second tool that translates validated PPTs while keeping formatting intact, using Google's machine translation API.</li>
+            </ul>
+            <div class="tags"><span>Next.js</span><span>Python / Flask</span><span>GCP</span><span>Google MT API</span></div>
+          </article>
+
+          <article class="job reveal">
+            <span class="tl-dot"></span>
+            <header>
+              <div>
+                <h3>Product &amp; Platform Lead</h3>
+                <p class="org">EmployU <span>· ed-tech</span></p>
+              </div>
+              <span class="when">Apr 2026 — Jul 2026 · Remote</span>
+            </header>
+            <ul>
+              <li>Built the full web MVP connecting students, universities, faculty and employers, together with one colleague.</li>
+              <li>About half my time customer-facing: gathering requirements, demoing the platform, and turning feedback into product decisions.</li>
+            </ul>
+            <div class="tags"><span>MERN</span><span>OpenAI API</span><span>Product</span><span>Demos</span></div>
+          </article>
+
+          <article class="job reveal">
+            <span class="tl-dot"></span>
+            <header>
+              <div>
+                <h3>Junior Project Manager / AI Operations Lead</h3>
+                <p class="org">Xntuate Consultancy Services</p>
+              </div>
+              <span class="when">May 2024 — Jan 2026 · Remote</span>
+            </header>
+            <ul>
+              <li>Designed and ran an AI assessment generation + translation pipeline (MT + professional proofreading) across <b>5 languages</b>, producing <b>100+ assessments</b>.</li>
+              <li>Automated <b>~80%</b> of the pipeline and cut QA review cycles by <b>40%</b>.</li>
+              <li>Built the pitch demos
+                <a href="https://xntuate.com/skillcreds" target="_blank" rel="noopener">LearnMate</a>,
+                <a href="https://xntuate.com/recruitmate" target="_blank" rel="noopener">RecruitMate</a> and
+                <a href="https://xntuate.com/platform" target="_blank" rel="noopener">AssessMate</a>
+                with Xntuate's head, helping the firm win new client business.</li>
+            </ul>
+            <div class="tags"><span>AI pipelines</span><span>Automation</span><span>QA</span><span>Pitch demos</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="sec-num">03</span>
+          <h2>Selected work</h2>
+          <span class="sec-line"></span>
+        </div>
+
+        <div class="work-grid">
+          <!-- Featured -->
+          <a class="card card-feature spot reveal" href="https://rallysports.ae" target="_blank" rel="noopener">
+            <div class="card-art art-rally" aria-hidden="true">
+              <div class="phone">
+                <div class="phone-notch"></div>
+                <div class="ph-row w60"></div>
+                <div class="ph-card"><i></i><i></i><i></i></div>
+                <div class="ph-row w80"></div>
+                <div class="ph-row w40"></div>
+                <div class="ph-bars"><i style="--h:40%"></i><i style="--h:70%"></i><i style="--h:55%"></i><i style="--h:90%"></i><i style="--h:65%"></i></div>
+              </div>
+              <span class="live-badge"><span class="dot-live"></span> 1,000+ live users</span>
+            </div>
+            <div class="card-body">
+              <p class="kicker">Featured · Production app</p>
+              <h3>Rally Sports</h3>
+              <p>Sports-tech app for an international client. Went from frontend dev to technical lead: I own features, deployment, releases and maintenance, working directly with the founder.</p>
+              <div class="tags"><span>React Native</span><span>Expo</span><span>Node</span><span>AWS</span></div>
+              <span class="card-link">rallysports.ae <span class="arr">↗</span></span>
+            </div>
+          </a>
+
+          <a class="card spot reveal" style="--d:1" href="https://xntuate.com/skillcreds" target="_blank" rel="noopener">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M13 4h5.5A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5H13z"/><path d="M7 8h1.5M7 11h1.5M16 8h1.5"/></svg>
+            </div>
+            <p class="kicker">AI · Ed-tech</p>
+            <h3>LearnMate — AI Course Generator</h3>
+            <p>Generates complete courses for blue- and white-collar occupations as PPTs in the client's template, with a companion tool that translates them while keeping formatting.</p>
+            <div class="tags"><span>Next.js</span><span>Flask</span><span>GCP</span><span>LLMs</span></div>
+            <span class="card-link">View <span class="arr">↗</span></span>
+          </a>
+
+          <a class="card spot reveal" style="--d:2" href="https://github.com/ayush04k" target="_blank" rel="noopener">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+            </div>
+            <p class="kicker">AI · RAG</p>
+            <h3>Enterprise Decision Support System</h3>
+            <p>Retrieval-Augmented Generation engine for structured document analysis and risk identification, with deterministic output schemas to prevent hallucinations.</p>
+            <div class="tags"><span>RAG</span><span>Python</span><span>Structured output</span></div>
+            <span class="card-link">GitHub <span class="arr">↗</span></span>
+          </a>
+
+          <a class="card spot reveal" style="--d:1" href="https://github.com/ayush04k" target="_blank" rel="noopener">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></svg>
+            </div>
+            <p class="kicker">Voice · Desktop agent</p>
+            <h3>Jarvis</h3>
+            <p>A voice desktop assistant that runs with no paid tools: takes notes, runs web searches, and opens or searches files and folders, all by voice.</p>
+            <div class="tags"><span>Python</span><span>Speech</span><span>Automation</span></div>
+            <span class="card-link">GitHub <span class="arr">↗</span></span>
+          </a>
+
+          <a class="card spot reveal" style="--d:2" href="https://github.com/ayush04k" target="_blank" rel="noopener">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h18l-7 8.5V19l-4 2v-8.5z"/></svg>
+            </div>
+            <p class="kicker">Growth · Automation</p>
+            <h3>B2B Lead Gen &amp; Outreach Monitor</h3>
+            <p>Scrapes leads based on the business intents you choose, then tracks each lead through its full lifecycle so outreach strategies can be tested and compared.</p>
+            <div class="tags"><span>Scraping</span><span>Pipelines</span><span>Analytics</span></div>
+            <span class="card-link">GitHub <span class="arr">↗</span></span>
+          </a>
+
+          <div class="card card-wide spot reveal" style="--d:1">
+            <p class="kicker">Pitch demos · Client wins</p>
+            <h3>The “Mate” suite for Xntuate</h3>
+            <p>Three pitch demos built in close collaboration with the firm's head, used to win new client business.</p>
+            <div class="mates">
+              <a href="https://xntuate.com/skillcreds" target="_blank" rel="noopener"><b>LearnMate</b><span>AI learning platform</span><i>↗</i></a>
+              <a href="https://xntuate.com/recruitmate" target="_blank" rel="noopener"><b>RecruitMate</b><span>AI hiring assistant</span><i>↗</i></a>
+              <a href="https://xntuate.com/platform" target="_blank" rel="noopener"><b>AssessMate</b><span>AI assessments</span><i>↗</i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="sec-num">04</span>
+          <h2>Toolkit</h2>
+          <span class="sec-line"></span>
+        </div>
+
+        <div class="stack reveal" id="stack">
+          <div class="stack-tabs" role="tablist" aria-label="Skill categories">
+            <span class="stack-ind" aria-hidden="true"></span>
+            <button class="stack-tab" role="tab" aria-selected="true" aria-controls="p-ai" data-mark="AI"><span class="t-num">01</span><span class="t-name">AI &amp; LLMs</span><span class="t-count">6</span></button>
+            <button class="stack-tab" role="tab" aria-selected="false" aria-controls="p-cx" data-mark="Clients"><span class="t-num">02</span><span class="t-name">Customer-facing</span><span class="t-count">4</span></button>
+            <button class="stack-tab" role="tab" aria-selected="false" aria-controls="p-fe" data-mark="Apps"><span class="t-num">03</span><span class="t-name">Web &amp; Mobile</span><span class="t-count">4</span></button>
+            <button class="stack-tab" role="tab" aria-selected="false" aria-controls="p-be" data-mark="Cloud"><span class="t-num">04</span><span class="t-name">Backend &amp; Cloud</span><span class="t-count">6</span></button>
+            <button class="stack-tab" role="tab" aria-selected="false" aria-controls="p-lang" data-mark="Code"><span class="t-num">05</span><span class="t-name">Languages</span><span class="t-count">4</span></button>
+          </div>
+
+          <div class="stack-panels" data-mark="AI">
+            <div class="panel active" id="p-ai" role="tabpanel">
+              <h3 class="panel-title">AI &amp; LLMs</h3>
+              <p class="panel-lead">Building <b>LLM products that hold up in production</b>: pipelines, retrieval, and agents with predictable output.</p>
+              <div class="tiles">
+                <div class="tile"><b>OpenAI API</b><span>LLM platform</span></div>
+                <div class="tile"><b>Anthropic API</b><span>LLM platform</span></div>
+                <div class="tile"><b>RAG</b><span>Retrieval</span></div>
+                <div class="tile"><b>Prompt engineering</b><span>LLM</span></div>
+                <div class="tile"><b>Agentic workflows</b><span>Agents</span></div>
+                <div class="tile"><b>AI-assisted dev</b><span>Workflow</span></div>
+              </div>
+              <div class="seen"><span>used in →</span><a href="https://xntuate.com/skillcreds" target="_blank" rel="noopener">LearnMate</a><em>Decision Support (RAG)</em><em>5-language assessment pipeline</em><em>EmployU MVP</em></div>
+            </div>
+
+            <div class="panel" id="p-cx" role="tabpanel">
+              <h3 class="panel-title">Customer-facing</h3>
+              <p class="panel-lead">The <b>forward-deployed half</b> of the job: in the room with clients, turning conversations into scoped, shippable work.</p>
+              <div class="tiles">
+                <div class="tile"><b>Requirements gathering</b><span>Discovery</span></div>
+                <div class="tile"><b>Product demos</b><span>Pre-sales</span></div>
+                <div class="tile"><b>Scoping</b><span>Planning</span></div>
+                <div class="tile"><b>Stakeholder comms</b><span>Founders &amp; execs</span></div>
+              </div>
+              <div class="seen"><span>used in →</span><a href="https://rallysports.ae" target="_blank" rel="noopener">Rally Sports</a><em>EmployU</em><em>Xntuate pitch demos</em></div>
+            </div>
+
+            <div class="panel" id="p-fe" role="tabpanel">
+              <h3 class="panel-title">Web &amp; Mobile</h3>
+              <p class="panel-lead">From <b>MVP to an app with 1,000+ live users</b>, plus the release management that comes with it.</p>
+              <div class="tiles">
+                <div class="tile"><b>React</b><span>Web</span></div>
+                <div class="tile"><b>React Native</b><span>Mobile</span></div>
+                <div class="tile"><b>Expo</b><span>Mobile</span></div>
+                <div class="tile"><b>Next.js</b><span>Full-stack web</span></div>
+              </div>
+              <div class="seen"><span>used in →</span><a href="https://rallysports.ae" target="_blank" rel="noopener">Rally Sports</a><em>EmployU MVP</em><em>AI course creator</em></div>
+            </div>
+
+            <div class="panel" id="p-be" role="tabpanel">
+              <h3 class="panel-title">Backend &amp; Cloud</h3>
+              <p class="panel-lead">APIs, data and deployment on <b>both AWS and GCP</b>.</p>
+              <div class="tiles">
+                <div class="tile"><b>Node / Express</b><span>API</span></div>
+                <div class="tile"><b>Flask</b><span>API</span></div>
+                <div class="tile"><b>AWS</b><span>Cloud</span></div>
+                <div class="tile"><b>GCP</b><span>Cloud</span></div>
+                <div class="tile"><b>MongoDB</b><span>Database</span></div>
+                <div class="tile"><b>MySQL</b><span>Database</span></div>
+              </div>
+              <div class="seen"><span>used in →</span><a href="https://rallysports.ae" target="_blank" rel="noopener">Rally Sports</a><em>AI course creator</em><em>PPT translation tool</em></div>
+            </div>
+
+            <div class="panel" id="p-lang" role="tabpanel">
+              <h3 class="panel-title">Languages</h3>
+              <p class="panel-lead"><b>JavaScript and Python</b> day to day, with SQL for data and C++ for fundamentals.</p>
+              <div class="tiles">
+                <div class="tile"><b>JavaScript</b><span>Daily driver</span></div>
+                <div class="tile"><b>Python</b><span>Daily driver</span></div>
+                <div class="tile"><b>SQL</b><span>Data</span></div>
+                <div class="tile"><b>C++</b><span>Fundamentals</span></div>
+              </div>
+              <div class="seen"><span>used in →</span><em>Rally Sports · JS</em><em>AI course creator · Python</em><em>EmployU · JS</em></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="honors">
+          <div class="honor reveal" style="--d:0">
+            <span class="medal m1">1st</span>
+            <div><h3>IIITD E-Summit Bidathon 2024</h3><p>National level</p></div>
+          </div>
+          <div class="honor reveal" style="--d:1">
+            <span class="medal m3">3rd</span>
+            <div><h3>CodeWizards Hackathon, SRM Ghaziabad</h3><p>National level</p></div>
+          </div>
+          <div class="honor reveal" style="--d:2">
+            <span class="medal edu">B.Tech</span>
+            <div><h3>Information Technology — GGSIPU (MAIT)</h3><p>CGPA 8.07 / 10 · Expected 2027</p></div>
+          </div>
+          <div class="honor reveal" style="--d:3">
+            <span class="medal cam" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M4 8h3l1.6-2.4h6.8L17 8h3v11H4z"/><circle cx="12" cy="13.2" r="3.4"/></svg></span>
+            <div><h3>Beyond code</h3><p>Photography · Graphic design · Social media</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <p class="eyebrow reveal"><span class="pulse"></span> Currently open to opportunities</p>
+        <h2 class="contact-title reveal">
+          Let's build something<br /><span class="grad">that ships.</span>
+        </h2>
+        <p class="contact-sub reveal">Hiring for a Forward Deployed, AI Solutions, Customer Success AI or AI Product role? I'd love to talk.</p>
+
+        <div class="contact-row reveal">
+          <button class="email-btn magnetic" id="copyEmail" data-email="ayush51501kumar@gmail.com">
+            <span class="email-text">ayush51501kumar@gmail.com</span>
+            <span class="email-hint" id="copyHint">click to copy</span>
+          </button>
+        </div>
+
+        <div class="contact-links reveal">
+          <a href="mailto:ayush51501kumar@gmail.com" class="btn btn-primary magnetic">Email me <span class="arr">→</span></a>
+          <a href="https://www.linkedin.com/in/ayush04kumar" target="_blank" rel="noopener" class="btn btn-ghost magnetic">LinkedIn ↗</a>
+          <a href="https://github.com/ayush04k" target="_blank" rel="noopener" class="btn btn-ghost magnetic">GitHub ↗</a>
+          <a href="assets/Ayush_Kumar_Resume.pdf" download class="btn btn-ghost magnetic">Résumé ↓</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <span>© <span id="year">2026</span> Ayush Kumar</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/ayush04kumar" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/ayush04k" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:ayush51501kumar@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
